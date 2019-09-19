@@ -1,4 +1,49 @@
+body{
+	background: #674314;
+}
+
+h1{
+color:#374b8d;
+text-align: center;
+
+
+}
+
+
+ul{
+list-style-type: none;
+margin:0;
+padding:0;
+overflow: hidden;
+background-color: #333;
+
+
+
+
+
+}
+
+li a {
+display:block;
+color: white;
+text-align: : center;
+padding:14px 16px;
+text- text-decoration: none;
+
+
+}
+
+li{
+float:left;
+
+}
+
+
+
+
 p{
-	color:green;
+
+	color:white;
 	font-size: 30px;
 }
+
