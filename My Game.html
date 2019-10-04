@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Abdulkerim's Webiste</title>
+	<title>My Game</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -24,4 +24,32 @@
 </ul>
 </nav>
 
-<script> </script>
+<div id="Game">
+<button class="Game1" onclick="guess_number()">Game 1</button>
+</div>
+
+<script>
+
+
+	function guess_number(){
+		var secret = 5 ;
+		var guess;
+		while(guess != secret){
+			guess = prompt("How old is my cat");
+
+		if(guess == secret){
+				alert("Dam it you got it");
+	    }
+		else if(guess < secret){
+					alert("Guess Higher");
+   		 }
+		else if(guess > secret){
+					alert("Guess Lower");
+	 	}
+		else{
+			alert("");
+		}
+	}
+}
+		
+</script>
