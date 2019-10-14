@@ -143,19 +143,47 @@ nav{
 	border: 100px;
 }
 
-.Game1{
+.NumberGame{
 	padding: 120px 120px;
 	font-size: 100px;
 	color: white;
 	background-color: blue;
 	border: 4px solid white;
-
-	
 }
 
-.Game1:hover{
+.NumberGame:hover{
 	background-color: black;
 	-webkit-transition-duration: 1s;
 	color: white;
 	cursor: pointer;
+}
+
+.CenturyGame{
+	padding: 120px 120px;
+	font-size: 100px;
+	color: white;
+	background-color: blue;
+	border: 4px solid white;
+}
+
+.CenturyGame:hover{
+	background-color: black;
+	-webkit-transition-duration: 1s;
+	color: white;
+	cursor: pointer;	
+}
+
+.AngleGame{
+	padding: 120px 120px;
+	font-size: 100px;
+	color: white;
+	background-color: blue;
+	border: 4px solid white;
+}
+
+.AngleGame:hover{
+	background-color: black;
+	-webkit-transition-duration: 1s;
+	color: white;
+	cursor: pointer;	
 }

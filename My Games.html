@@ -18,14 +18,16 @@
 	<li class="Skills"><a href="Skills.html">Tech Skills</a></li>
 	<li class="project"><a href="projects.html">Personal projects</a></li>
 	<li class="assignment"><a href="assignment.html">My Assignments</a></li>
-	<li class="My Game"><a href="My Game.html">My Game</a></li>
+	<li class="My Games"><a href="My Games.html">My Games</a></li>
 	<li class="Home"><a href="index.html">Home</a></li>
 
 </ul>
 </nav>
 
 <div id="Game">
-<button class="Game1" onclick="guess_number()">Game 1</button>
+<button class="NumberGame" onclick="guess_number()">Number Game</button>
+<button class="CenturyGame" onclick="cg()">Century Game</button>
+<button class="AngleGame" onclick="angle()">Angle Game</button>
 </div>
 
 <script>
@@ -38,7 +40,7 @@
 			guess = prompt("How old is my cat");
 
 		if(guess == secret){
-				alert("Dam it you got it");
+				alert("Damn it, you got it");
 	    }
 		else if(guess < secret){
 					alert("Guess Higher");
@@ -52,4 +54,24 @@
 	}
 }
 		
+function cg(){
+var x = prompt("Pick any year");
+var y =(x/100)
+var z =(y + 1)
+	alert("This year is in the" + " " + Math.floor(z) + "the Century")
+}	
+
+function angle(){
+var x = prompt("Enter an angle belonging to a triangle (Just the Number)");
+var y = prompt("Enter the other angle of that same triangle (Just the Number)");
+	alert(180 - x - y + " " + "degrees is the 3rd anlge of your triangle");
+}
+
+
 </script>
+
+
+
+
+
+
