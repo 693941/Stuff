@@ -14,12 +14,12 @@
 
 <nav>
 <ul>
-	<li class="interesets"><a href="Interests.html">Interests</a></li>
+	<li class="Interests"><a href="Interests.html">Interests</a></li>
 	<li class="Skills"><a href="Skills.html">Tech Skills</a></li>
-	<li class="project"><a href="projects.html">Personal projects</a></li>
-	<li class="assignment"><a href="assignment.html">My Assignments</a></li>
+	<li class="Project"><a href="Projects.html">Personal projects</a></li>
+	<li class="Assignment"><a href="Assignment.html">My Assignments</a></li>
 	<li class="My Games"><a href="My Games.html">My Games</a></li>
-	<li class="Home"><a href="index.html">Home</a></li>
+	<li class="Home"><a href="Index.html">Home</a></li>
 
 </ul>
 </nav>
@@ -32,9 +32,9 @@
 
 
 <div id="ex">
-	<button class="ex1" onclick="myfunction()">Assingment 1</button>
-	<button class="ex1" onclick="myfunction()">Assingment 2</button>
-	<button class="ex1" onclick="myfunction()">Assingment 3</button>
+	<button class="ex1" onclick="cg()">Century Game</button>
+	<button class="ex1" onclick="angle()">Angle Game</button>
+	<button class="ex1" onclick="o()">Integer Game</button>
 	<button class="ex1" onclick="myfunction()">Assingment 4</button>
 	<button class="ex1" onclick="myfunction()">Assingment 5</button>
 	<button class="ex1" onclick="myfunction()">Assingment 6</button>
@@ -53,10 +53,37 @@
 
 <script>
 	
+function cg(){
+var x = prompt("Pick any year");
+var y =(x/100)
+var z =(y + 1)
+	alert("This year is in the" + " " + Math.floor(z) + "the Century")
+}	
 
-function myfunction(){
-	var x = alert("Why did you even bother to click it! >:(");
+function angle(){
+var x = prompt("Enter an angle belonging to a triangle (Just the Number)");
+var y = prompt("Enter the other angle of that same triangle (Just the Number)");
+	alert(180 - x - y + " " + "degrees is the 3rd anlge of your triangle");
 }
+
+
+function o(){
+	var x = 0;
+	while (x <= 99){
+		x = x + 1;
+		if(x % 4 == 0 && x % 10 == 0){
+			console.log("fourten");
+		}else if(x % 10 == 0){
+			console.log("ten");
+		}else if(x % 4 == 0){
+			console.log("four");
+		}else{
+			console.log(x);
+		}
+	}
+}
+
+
 
 
 
