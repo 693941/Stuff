@@ -54,16 +54,31 @@
 <script>
 	
 function cg(){
-var x = prompt("Pick any year");
-var y =(x/100)
-var z =(y + 1)
-	alert("This year is in the" + " " + Math.floor(z) + "the Century")
-}	
+	var x = prompt("Pick any year");
+	var y =(x/100)
+	var z =(Math.floor(y + 1))
+	if (z == 12){
+		alert("This year is in the" + " " + Math.floor(z) + "th Century")
+	} else if (z == 13){
+		alert("This year is in the" + " " + Math.floor(z) + "th Century")
+	} else if (z == 11){
+		alert("This year is in the" + " " + Math.floor(z) + "th Century")
+	} else if (z % 10 == 1){
+		alert("This year is in the" + " " + Math.floor(z) + "st Century")
+	} else if (z % 10 == 2){
+		alert("This year is in the" + " " + Math.floor(z) + "nd Century")
+	} else if (z % 10 == 3){
+		alert("This year is in the" + " " + Math.floor(z) + "rd Century")
+	} else {
+		alert("This year is in the" + " " + Math.floor(z) + "th Century")
+	}
+}
+
 
 function angle(){
 var x = prompt("Enter an angle belonging to a triangle (Just the Number)");
 var y = prompt("Enter the other angle of that same triangle (Just the Number)");
-	alert(180 - x - y + " " + "degrees is the 3rd anlge of your triangle");
+	alert(180 - x - y + " " + "degrees is the 3rd angle of your triangle");
 }
 
 
