@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	</strong><h1>Abdulkerim's Website</h1>
+	<h1>Abdulkerim's Website</h1>
 	<hr></hr>
 	<hr></hr>
 
@@ -24,7 +24,7 @@
 </ul>
 </nav>
 
-<div id="Game">
+<div>
 <button class="NumberGame" onclick="guess_number()">Number Game</button>
 </div>
 
@@ -35,10 +35,10 @@
 		var secret = 5 ;
 		var guess;
 		while(guess != secret){
-			guess = prompt("How old is my cat");
+			guess = prompt("How old is my cat?");
 
 		if(guess == secret){
-				alert("Damn it, you got it");
+				alert("Damn it, you got it!");
 	    }
 		else if(guess < secret){
 					alert("Guess Higher");
