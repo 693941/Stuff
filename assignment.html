@@ -35,13 +35,13 @@
 	<button class="ex1" onclick="cg()">Century Game</button>
 	<button class="ex1" onclick="angle()">Angle Game</button>
 	<button class="ex1" onclick="o()">Integer Game</button>
-	<button class="ex1" onclick="myfunction()">Assingment 4</button>
-	<button class="ex1" onclick="myfunction()">Assingment 5</button>
-	<button class="ex1" onclick="myfunction()">Assingment 6</button>
-	<button class="ex1" onclick="myfunction()">Assingment 7</button>
-	<button class="ex1" onclick="myfunction()">Assingment 8</button>
-	<button class="ex1" onclick="myfunction()">Assingment 9</button>
-	<button class="ex1" onclick="myfunction()">Assingment 10</button>
+	<button class="ex1" onclick="m60()">Assignment 4</button>
+	<button class="ex1" onclick="myfunction()">Assignment 5</button>
+	<button class="ex1" onclick="myfunction()">Assignment 6</button>
+	<button class="ex1" onclick="myfunction()">Assignment 7</button>
+	<button class="ex1" onclick="myfunction()">Assignment 8</button>
+	<button class="ex1" onclick="myfunction()">Assignment 9</button>
+	<button class="ex1" onclick="myfunction()">Assignment 10</button>
 </div>
 
 
@@ -77,16 +77,9 @@ function cg(){
 
 function angle(){
 var x = prompt("Enter an angle belonging to a triangle (Just the Number)");
-if (x !>= 1 || x !<= 90){
-	alert('wrong')
-}
+var y = prompt("Enter the other angle of that same triangle (Just the Number)");
+{alert(180 - x - y + " " + "degrees is the 3rd angle of your triangle");
 
-else {var y = prompt("Enter the other angle of that same triangle (Just the Number)");
-if (y !>= 1 || y !<= 90){
-	alert('wrong')
-}
-else {alert(180 - x - y + " " + "degrees is the 3rd angle of your triangle");
-}}}
 
 
 function o(){
@@ -104,6 +97,18 @@ function o(){
 		}
 	}
 }
+
+
+function m60(){
+	var y = prompt("Type anyhting and I will tell you the length");
+	alert(y.length);
+}
+
+
+
+
+
+
 
 function myfunction(){
 	alert("More Work Coming Soon")
