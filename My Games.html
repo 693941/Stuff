@@ -3,6 +3,7 @@
 <head>
 	<title>My Game</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="ker.js"></script>
 </head>
 <body>
 
@@ -28,30 +29,3 @@
 <button class="NumberGame" onclick="guess_number()">Number Game</button>
 </div>
 
-<script>
-
-
-	function guess_number(){
-		var secret = 5 ;
-		var guess;
-		while(guess != secret){
-			guess = prompt("How old is my cat?");
-
-		if(guess == secret){
-				alert("Damn it, you got it!");
-	    }
-		else if(guess < secret){
-					alert("Guess Higher");
-   		 }
-		else if(guess > secret){
-					alert("Guess Lower");
-	 	}
-		else{
-			alert("Type in a number");
-		}
-	}
-}
-		
-
-
-</script>

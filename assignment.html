@@ -3,6 +3,7 @@
 <head>
 	<title>My Assignments</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="ker.js"></script>
 </head>
 <body>
 
@@ -36,9 +37,9 @@
 	<button class="ex1" onclick="cg()">Century Game</button>
 	<button class="ex1" onclick="angle()">Angle Game</button>
 	<button class="ex1" onclick="o()">Integer Game</button>
-	<button class="ex1" onclick="m60()">Assignment 4</button>
-	<button class="ex1" onclick="myfunction()">Assignment 5</button>
-	<button class="ex1" onclick="myfunction()">Assignment 6</button>
+	<button class="ex1" onclick="length()">Length</button>
+	<button class="ex1" onclick="Code()">Log in</button>
+	<button class="ex1" onclick="Letters()">Assignment 6</button>
 	<button class="ex1" onclick="myfunction()">Assignment 7</button>
 	<button class="ex1" onclick="myfunction()">Assignment 8</button>
 	<button class="ex1" onclick="myfunction()">Assignment 9</button>
@@ -52,74 +53,3 @@
 
 </body>
 </html>
-
-<script>
-	
-function cg(){
-	var x = prompt("Pick any year");
-	var y =(x/100)
-	var z =(Math.floor(y + 1))
-	if (z == 12){
-		alert("This year is in the" + " " + Math.floor(z) + "th Century")
-	} else if (z == 13){
-		alert("This year is in the" + " " + Math.floor(z) + "th Century")
-	} else if (z == 11){
-		alert("This year is in the" + " " + Math.floor(z) + "th Century")
-	} else if (z % 10 == 1){
-		alert("This year is in the" + " " + Math.floor(z) + "st Century")
-	} else if (z % 10 == 2){
-		alert("This year is in the" + " " + Math.floor(z) + "nd Century")
-	} else if (z % 10 == 3){
-		alert("This year is in the" + " " + Math.floor(z) + "rd Century")
-	} else {
-		alert("This year is in the" + " " + Math.floor(z) + "th Century")
-	}
-}
-
-
-function angle(){
-var x = prompt("Enter an angle belonging to a triangle (Just the Number)");
-var y = prompt("Enter the other angle of that same triangle (Just the Number)");
-
-alert(180 - x - y + " " + "degrees is the 3rd angle of your triangle");
-	}
-
-
-
-function o(){
-	var x = 0;
-	while (x <= 99){
-		x = x + 1;
-		if(x % 4 == 0 && x % 10 == 0){
-			console.log("fourten");
-		}else if(x % 10 == 0){
-			console.log("ten");
-		}else if(x % 4 == 0){
-			console.log("four");
-		}else{
-			console.log(x);
-		}
-	}
-}
-
-
-
-function m60(){
-	var y = prompt("Type anyhting and I will tell you the length");
-	alert(y.length);
-}
-
-
-
-
-
-
-
-
-
-function Empty(){
-	alert("More Work Coming Soon")
-}
-
-
-</script>
