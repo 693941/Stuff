@@ -53,19 +53,13 @@ function length(){
 }
 
 function Code(){
-	var x = prompt("Username")
-	var y = prompt("Password")
-	var z = x.toLowerCase()
-	if (z == "pais")
-{
-	if (z == "iscool")
-		alert("True")
-
-	else{
-		alert("False")
-	}
-	}
-}
+	var user = prompt("Type the Username");
+	var lowercase 
+	var password = prompt("Now type the Password");
+		if (user == "pais" && password == "iscool"){
+			alert("True")
+		}
+		
 
 	
 function guess_number(){

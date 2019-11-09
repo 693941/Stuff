@@ -81,7 +81,7 @@ h4{
 }
 
 
-.ex{
+.ex1{
 	margin: 10px -30px 40px 50px;
 	padding: 22px 22px 22px 22px;
 	font-size: 20px;
@@ -90,7 +90,7 @@ h4{
 }
 
 
-.ex:hover{
+.ex1:hover{
 	background-color: black;
 	-webkit-transition-duration: 1s;
 	cursor: pointer;
