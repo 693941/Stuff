@@ -1,2 +1,2 @@
 # Website
-https://693941.github.io/Stuff/
+https://693941.github.io/Website/
