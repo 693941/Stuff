@@ -58,13 +58,14 @@ function Login(){
   var loweruser = user.toLowerCase();
   var password = prompt("Now type the password");
   if(loweruser == "pais" && password == "iscool"){
-    alert("Correct");
+    alert("True");
   }
   else{
-    alert("Incorrect please try again");
+    alert("False");
   }
 }
 		
+
 
 function guess_number(){
 		var secret = 5 ;
