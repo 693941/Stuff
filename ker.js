@@ -52,16 +52,20 @@ function length(){
 	alert(y.length);
 }
 
-function Code(){
-	var user = prompt("Type the Username");
-	var lowercase 
-	var password = prompt("Now type the Password");
-		if (user == "pais" && password == "iscool"){
-			alert("True")
-		}
+
+function Login(){
+  var user = prompt("Type the username");
+  var loweruser = user.toLowerCase();
+  var password = prompt("Now type the password");
+  if(loweruser == "pais" && password == "iscool"){
+    alert("Correct");
+  }
+  else{
+    alert("Incorrect please try again");
+  }
+}
 		
 
-	
 function guess_number(){
 		var secret = 5 ;
 		var guess;
