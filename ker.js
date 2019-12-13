@@ -87,3 +87,10 @@ function guess_number(){
 		}
 	}
 }
+
+
+
+function encrypt(){
+	var str = ("Type")
+
+}
